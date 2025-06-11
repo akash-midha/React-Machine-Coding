@@ -1,0 +1,44 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  /* text-align: center; */
+}
+
+.tab-form {
+  /* display: flex; */
+  direction: column;
+}
+
+.tab-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.tab-form__tabs {
+  display: flex;
+  margin: 8px;
+}
+
+.tab-form__tab {
+  border: solid 1px black;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.tab-form__body {
+  height: 400px;
+  border: solid 1px black;
+  margin: 8px;
+  padding: 8px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.error {
+  padding-top: 10px;
+  color: red;
+  font-size: smaller;
+}

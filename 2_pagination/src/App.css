@@ -1,0 +1,48 @@
+.App {}
+
+.product-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  height: 280px;
+  width: 280px;
+  border: solid 1px black;
+  margin: 8px;
+}
+
+.product-image {
+  height: 200px;
+  width: 200px;
+}
+
+.product-title {
+  font-size: small;
+  font-weight: bold;
+  text-align: center;
+}
+
+.product-price {
+  font-size: small;
+  text-align: center;
+  font-weight: bold;
+}
+
+.page-button {
+  margin: 4px;
+  border: solid 1px black;
+  height: 32px;
+  width: 32px;
+  cursor: pointer;
+}
+
+.icon-button {
+  font-size: larger;
+  cursor: pointer;
+}
+
+.active-btn{
+  background-color: aqua;
+  /* font-size: 6px; */
+}

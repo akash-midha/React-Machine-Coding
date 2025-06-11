@@ -1,0 +1,1 @@
+export const allInterests = ["Dancing", "Coding", "Singing", "Painting", "Reading", "Content-Creation"]
