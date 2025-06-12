@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+.input__searchbar {
+  width: 500px;
+  padding: 8px;
+  font-size: large;
+}
+
+.input__suggestions {
+  width: 500px;
+  max-height: 500px;
+  border: solid 1px black;
+  margin: auto;
+  margin-top: 20px;
+  overflow-y: scroll;
+  text-align: start;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.search-result_container{
+  border-bottom: solid 1px gray;
+  padding-bottom: 8px;
+  /* color: bisque; */
+}
+
+.search-result_item{
+  margin: 15px;
+}
+
+.search-result_container:hover{
+  background-color: gainsboro;
+  cursor: pointer;
+
+}
