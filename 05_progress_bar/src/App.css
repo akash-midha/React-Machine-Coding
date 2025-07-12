@@ -1,0 +1,37 @@
+.App {
+    text-align: center;
+}
+
+.progress-bar__outer {
+    width: 40vw;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: solid 1px black;
+    overflow: hidden;
+    height: 40px;
+    margin-bottom: 20px;
+    position: relative;
+    background-color: #e1e1e1;
+}
+
+.progress-bar__outer:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.progress-bar__inner {
+    background: linear-gradient(to right, rgb(186, 246, 186), rgb(47, 202, 47));
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    transition: transform 0.5s ease-in;
+}
+
+.progress {
+    color: white;
+    font-weight: 700;
+    position: absolute;
+    right: 4px;
+    padding: 0 5px;
+
+}

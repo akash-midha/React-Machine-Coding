@@ -21,4 +21,9 @@ This repository contains most commonly and frequently asked questions in Machine
 1.  Tab-Form Component
 2.  Pagination
 3.  Autocomplete Search Bar / TypeHead Suggestions
-4.  
+4.  File Explorer
+5.  Progress Bar
+6.  OTP Input
+7.  
+8.  Stepper
+9.  Calculator

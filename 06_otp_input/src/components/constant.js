@@ -1,0 +1,1 @@
+export const NO_OF_DIGITS = 6;

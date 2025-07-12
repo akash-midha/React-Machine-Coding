@@ -1,0 +1,15 @@
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+}
+
+.folder-item{
+  padding-left: 25px;
+  padding-bottom: 4px;
+}
+
+.folder-item__icon{
+  cursor: pointer;
+  padding-right: 6px;
+  font-size: larger;
+}

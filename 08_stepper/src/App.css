@@ -1,0 +1,29 @@
+.stepper {
+  display: inline-block;
+  gap: 20px;
+  /* font-size: 32px; */
+}
+
+.stepper_item {
+  margin-right: 40px;
+  display: inline-block;
+}
+
+.stepper_item_number {
+  display: inline;
+  height: 14px;
+  width: 14px;
+  border: solid 1px black;
+  border-radius: 22px;
+  margin: 20px;
+  background-color: antiquewhite;
+  padding: 16px;
+}
+
+.line {
+  height: 2px;
+  width: 40px;
+  border: solid 1px black;
+}
+
+.stepper_item_desc {}

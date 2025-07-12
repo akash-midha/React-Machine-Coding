@@ -1,0 +1,10 @@
+.container {
+  text-align: center;
+}
+
+.input-box {
+  height: 50px;
+  width: 50px;
+  font-size: 34px;
+  text-align: center;
+}

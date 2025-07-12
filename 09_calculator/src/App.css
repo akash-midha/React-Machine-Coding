@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+  align-items: center;
+}
+
+.calculator {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  border: solid 1px black;
+  max-width: 500px;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.calculator_input {
+  height: 46px;
+  max-width: 400px;
+  width: 90%;
+  border: solid 2px black;
+  font-size: large;
+}
+
+.calculator_buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 400px;
+  margin-top: 20px;
+}
+
+.calculator_key {
+  height: 60px;
+  width: 120px;
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+@media(max-width: 480px) {
+  .calculator_key {
+    width: 60px;
+    height: 30px;
+    font-size: small;
+  }
+
+  .calculator_input  {
+    height: 30px;
+  }
+}
