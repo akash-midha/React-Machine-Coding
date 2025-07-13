@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  margin: 0 auto;
+  background-color: antiquewhite;
+}
+
+.hackerBoard {
+  margin: 0 auto;
+}
+
+.job_board {
+  margin: 20px;
+}
+
+.jobComponent {
+  border: solid 1px gray;
+  border-radius: 4px;
+  width: 80%;
+  max-width: 600px;
+  margin-bottom: 20px;
+  background-color: white;
+  height: 80px;
+}
+
+.job_heading_link {
+  margin-top: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.job_desc {
+  font-size: 18px;
+  padding: 8px;
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px;
+}

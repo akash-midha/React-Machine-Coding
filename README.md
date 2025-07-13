@@ -27,3 +27,6 @@ This repository contains most commonly and frequently asked questions in Machine
 7.  
 8.  Stepper
 9.  Calculator
+10. Job-Board
+11. Like-Button
+12. Star-Rating

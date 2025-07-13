@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+  background-color: rgb(146, 86, 8);
+}
+
+.StarRating{
+  display: flex;
+  gap: 4px;
+}
+
+.star{
+  font-size: 36px;
+  cursor: pointer;
+}
+
+.star:hover{
+  color:  rgb(255, 234, 0);
+}
+
+.filledStar{
+  color:  rgb(255, 234, 0);
+}
+
